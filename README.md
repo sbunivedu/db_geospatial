@@ -92,11 +92,11 @@ SELECT artwork1.artwork_name, artwork2.artwork_name, ST_DISTANCE(artwork1.where_
 FROM artwork artwork1, artwork artwork2;
 
 SELECT artwork1.artwork_name, artwork2.artwork_name, ST_DISTANCE(artwork1.where_is, artwork2.where_is)
-FROM artwork artwork1, artwork artwork2;
+FROM artwork artwork1, artwork artwork2
 WHERE artwork1.artwork_name < artwork2.artwork_name;
 
 SELECT artwork1.artwork_name, artwork2.artwork_name, ST_DISTANCE(artwork1.where_is, artwork2.where_is) * 3.2808399
-FROM artwork artwork1, artwork artwork2;
+FROM artwork artwork1, artwork artwork2
 WHERE artwork1.artwork_name < artwork2.artwork_name;
 ```
 
@@ -149,4 +149,3 @@ POLYGON((-3.694042 40.407561,2.338513 48.860547,11.570856 48.149966,11.258887 43
 (1 row)
 ```
 The data can be converted to KML format as shown in [convex_hull.kml](convex_hull.kml) so that it can be visualized on Google earth.
-# db_geospatial

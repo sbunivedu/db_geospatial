@@ -4,27 +4,27 @@
   xmlns:kml="http://www.opengis.net/kml/2.2"
   xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>museums</name>
-	<Style id="orange-5px">
-		<LineStyle>
-			<color>ff00aaff</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Placemark>
-		<name>Munich Pinakotek</name>
-		<styleUrl>#orange-5px</styleUrl>
-		<LineString>
-			<tessellate>1</tessellate>
-			<coordinates>
+  <name>museums</name>
+  <Style id="orange-5px">
+    <LineStyle>
+      <color>ff00aaff</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Munich Pinakotek</name>
+    <styleUrl>#orange-5px</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
 11,48,0
 11,49,0
 12,49,0
 12,48,0
 11,48,0
-			</coordinates>
-		</LineString>
-	</Placemark>
+      </coordinates>
+    </LineString>
+  </Placemark>
   <Placemark>
     <name>Accademia Gallery</name>
     <styleUrl>#orange-5px</styleUrl>
