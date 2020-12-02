@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+  xmlns:gx="http://www.google.com/kml/ext/2.2"
+  xmlns:kml="http://www.opengis.net/kml/2.2"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>museums</name>
+	<Style id="orange-5px">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Munich Pinakotek</name>
+		<styleUrl>#orange-5px</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+11,48,0
+11,49,0
+12,49,0
+12,48,0
+11,48,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+  <Placemark>
+    <name>Accademia Gallery</name>
+    <styleUrl>#orange-5px</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+11,43,0
+11,44,0
+12,44,0
+12,43,0
+11,43,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Musee du Louvre</name>
+    <styleUrl>#orange-5px</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+2,48,0
+2,49,0
+3,49,0
+3,48,0
+2,48,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Museo Reina Sofia</name>
+    <styleUrl>#orange-5px</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+-4,40,0
+-4,41,0
+-3,41,0
+-3,40,0
+-4,40,0
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

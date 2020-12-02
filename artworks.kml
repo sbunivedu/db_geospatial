@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+  <name>artworks</name>
+  <Style id="z1">
+    <IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+  </Style>
+  <Placemark>
+    <name>Giaconda</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>2.338513, 48.860547, 0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>David</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>11.258887, 43.776709, 0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Sunflowers</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>11.570856, 48.149966, 0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Guernica</name>
+    <styleUrl>#z1</styleUrl>
+    <Point><coordinates>-3.694042, 40.407561, 0</coordinates></Point>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+  xmlns:gx="http://www.google.com/kml/ext/2.2"
+  xmlns:kml="http://www.opengis.net/kml/2.2"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>convex hull of artworks</name>
+	<Style id="orange-5px">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Munich Pinakotek</name>
+		<styleUrl>#orange-5px</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+-3.694042,40.407561,0
+2.338513,48.860547,0
+11.570856,48.149966,0
+11.258887,43.776709,0
+-3.694042,40.407561,0
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
